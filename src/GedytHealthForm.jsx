@@ -130,7 +130,7 @@ const CheckinOnline = () => {
     if (step === 3) {
       if (!formData.ordenMedica) newWarnings.push('Debe cargar la orden médica');
       if (formData.requiereAutorizacion && !formData.autorizacion) {
-        newWarnings.push('Autorización pendiente. Deberá cargarla antes de D-1 o cambiar a Particular.');
+        newWarnings.push('Autorización pendiente. Deberá llevarla e SEDE o cambiar a Particular.');
       }
     }
     
